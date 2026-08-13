@@ -2900,6 +2900,18 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Cubes/01-Placeholders/93517e555275405940e84957ed49f92de0eac0d7690164a2101c03b6fdd2a1e6_blue.png",
           "name": "blue.png"
         }
+      },
+      {
+        "file": "assets/ambientcg-leather-036-c-color.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "ambientcg-leather-036-c-color.jpg",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Cubes/AmbientCG/3de8b33e2a3a60530eabdbd742bd01d7d7bd0b57716d52b6f1b15fd2a1466203_ambientcg-leather-036-c-color.jpg",
+          "name": "ambientcg-leather-036-c-color.jpg"
+        }
       }
     ]
   },
@@ -2940,10 +2952,16 @@
       "objectsGroups": [],
       "variables": [
         {
+          "name": "ShowHitbox",
+          "persistentUuid": "f2246b2f-9fb2-4776-b178-392987dc1c93",
+          "type": "boolean",
+          "value": false
+        },
+        {
           "name": "CameraDeadZone",
           "persistentUuid": "3017720f-26ec-488e-aa5a-c3c585b92d74",
           "type": "number",
-          "value": 150
+          "value": 37.5
         },
         {
           "name": "ControlKind",
@@ -3121,6 +3139,24 @@
           "width": 10,
           "x": 594,
           "y": 339,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 30,
+          "height": 100,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlayerHitbox",
+          "persistentUuid": "70ba1002-240c-4db3-aefb-9369371be862",
+          "width": 100,
+          "x": 670.8,
+          "y": 416.85,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -3417,7 +3453,7 @@
               "fallingSpeedMax": 700,
               "forwardAcceleration": 99999999,
               "forwardDeceleration": 99999,
-              "forwardSpeedMax": 500,
+              "forwardSpeedMax": 350,
               "sidewaysAcceleration": 999999999999,
               "sidewaysDeceleration": 99999,
               "sidewaysSpeedMax": 350,
@@ -12094,6 +12130,46 @@
             "isReceivingShadow": true,
             "tint": "255;255;255"
           }
+        },
+        {
+          "assetStoreId": "311a3a3124806a81435c982264a9ee79ca9a1ecd3cc508c8bd2db58c78353000",
+          "name": "PlayerHitbox",
+          "persistentUuid": "ed2d3621-c188-4b3f-8f3e-61e5a54ddbcc",
+          "type": "Scene3D::Cube3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "width": 100,
+            "height": 100,
+            "depth": 100,
+            "enableTextureTransparency": false,
+            "facesOrientation": "Y",
+            "frontFaceResourceName": "ambientcg-leather-036-c-color.jpg",
+            "backFaceResourceName": "ambientcg-leather-036-c-color.jpg",
+            "backFaceUpThroughWhichAxisRotation": "X",
+            "leftFaceResourceName": "ambientcg-leather-036-c-color.jpg",
+            "rightFaceResourceName": "ambientcg-leather-036-c-color.jpg",
+            "topFaceResourceName": "ambientcg-leather-036-c-color.jpg",
+            "bottomFaceResourceName": "ambientcg-leather-036-c-color.jpg",
+            "frontFaceVisible": true,
+            "backFaceVisible": true,
+            "leftFaceVisible": true,
+            "rightFaceVisible": true,
+            "topFaceVisible": true,
+            "bottomFaceVisible": true,
+            "frontFaceResourceRepeat": true,
+            "backFaceResourceRepeat": true,
+            "leftFaceResourceRepeat": true,
+            "rightFaceResourceRepeat": true,
+            "topFaceResourceRepeat": true,
+            "bottomFaceResourceRepeat": true,
+            "tileScale": 0.2,
+            "materialType": "StandardWithoutMetalness",
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "tint": "255;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -12116,6 +12192,9 @@
           },
           {
             "objectName": "CameraFocus"
+          },
+          {
+            "objectName": "PlayerHitbox"
           }
         ]
       },
@@ -12149,7 +12228,7 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01KZW8H3750M29YCFC17TZ6Y4A",
+          "aiGeneratedEventId": "01KZW98GWBD28C5297AKJSMY2H",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -12160,7 +12239,7 @@
               "parameters": [
                 "dx",
                 "=",
-                "Player.X() - CameraFocus.X()"
+                "Player.CenterX() - CameraFocus.X()"
               ]
             },
             {
@@ -12170,7 +12249,7 @@
               "parameters": [
                 "dy",
                 "=",
-                "Player.Y() - CameraFocus.Y()"
+                "Player.CenterY() - CameraFocus.Y()"
               ]
             },
             {
@@ -12227,7 +12306,7 @@
                   "parameters": [
                     "targetX",
                     "=",
-                    "Player.X() - dx / dist * CameraDeadZone"
+                    "Player.CenterX() - dx / dist * CameraDeadZone"
                   ]
                 },
                 {
@@ -12237,7 +12316,7 @@
                   "parameters": [
                     "targetY",
                     "=",
-                    "Player.Y() - dy / dist * CameraDeadZone"
+                    "Player.CenterY() - dy / dist * CameraDeadZone"
                   ]
                 }
               ]
@@ -12309,6 +12388,146 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01KZWBP28YSGX55Z1R7MJQNVNW",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "FacingAngle",
+                "=",
+                "ToDeg(atan2(CursorX(\"\", 0) - Player.CenterX(), Player.CenterY() - CursorY(\"\", 0)))"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KZW98GWBD28C5297AKJSMY2H",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Num9\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "ShowHitbox",
+                "Toggle",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KZW98GWBD28C5297AKJSMY2H",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "ShowHitbox",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "PlayerHitbox",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+              },
+              "parameters": [
+                "PlayerHitbox",
+                "Resizable",
+                "=",
+                "Player.Width()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetHeight"
+              },
+              "parameters": [
+                "PlayerHitbox",
+                "Resizable",
+                "=",
+                "Player.Height()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "PlayerHitbox",
+                "=",
+                "Player.CenterX() - PlayerHitbox.Width() / 2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "PlayerHitbox",
+                "=",
+                "Player.CenterY() - PlayerHitbox.Height() / 2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::Base3DBehavior::SetZ"
+              },
+              "parameters": [
+                "PlayerHitbox",
+                "Object3D",
+                "=",
+                "Player.Object3D::Z()"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KZW98GWBD28C5297AKJSMY2H",
+          "type": "BuiltinCommonInstructions::Else",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "PlayerHitbox"
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -12326,7 +12545,7 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01KYR4KJ3V5YG0447N9E5M2NYF",
+          "aiGeneratedEventId": "01KZWC11PN236FPFBMMT815M4Z",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -12359,6 +12578,37 @@
                 "Physics3D",
                 "=",
                 "-40"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "CameraFocus",
+                "=",
+                "Player.CenterX()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "CameraFocus",
+                "=",
+                "Player.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::Base3DBehavior::SetCenterZ"
+              },
+              "parameters": [
+                "CameraFocus",
+                "Object3D",
+                "=",
+                "Player.Object3D::Z()"
               ]
             }
           ]
@@ -12562,6 +12812,7 @@
               ]
             },
             {
+              "aiGeneratedEventId": "01KZWAQAZ17H0GBCX8EX2HWKGB",
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -12604,19 +12855,7 @@
                   ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "FacingAngle",
-                    "=",
-                    "angle"
-                  ]
-                }
-              ],
+              "actions": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -13399,6 +13638,44 @@
                       "parameters": [
                         "Player.FacingAngle",
                         ">=",
+                        "-157.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Player.FacingAngle",
+                        "<",
+                        "-112.5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"SouthWest-Idle\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Else",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Player.FacingAngle",
+                        ">=",
                         "-112.5"
                       ]
                     },
@@ -13423,6 +13700,44 @@
                         "Animation",
                         "=",
                         "\"West-Idle\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Else",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Player.FacingAngle",
+                        ">=",
+                        "-67.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Player.FacingAngle",
+                        "<",
+                        "-22.5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"NorthWest-Idle\""
                       ]
                     }
                   ]
@@ -13461,16 +13776,15 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01KZQ7DP067D3D3KAYEX5SKZEW",
+          "aiGeneratedEventId": "01KZYKTXXT7WGBE6NC8JH182GH",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextJustPressed"
+                "value": "HasAnyTouchOrMouseStarted"
               },
               "parameters": [
-                "",
-                "\"k\""
+                ""
               ]
             },
             {
@@ -13608,7 +13922,159 @@
                     "Player",
                     "Animation",
                     "=",
-                    "\"NorthEast-Attack\""
+                    "\"SouthEast-Attack\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Player.FacingAngle",
+                    ">=",
+                    "-202.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Player.FacingAngle",
+                    "<",
+                    "-157.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"South-Attack\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Player.FacingAngle",
+                    ">=",
+                    "-157.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Player.FacingAngle",
+                    "<",
+                    "-112.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"SouthWest-Attack\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Player.FacingAngle",
+                    ">=",
+                    "-112.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Player.FacingAngle",
+                    "<",
+                    "-67.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"West-Attack\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Player.FacingAngle",
+                    ">=",
+                    "-67.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Player.FacingAngle",
+                    "<",
+                    "-22.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"NorthWest-Attack\""
                   ]
                 }
               ]
@@ -13667,6 +14133,117 @@
                 "IsAttacking",
                 "False",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KZYM9GNRVN15WNBREVCWTGTR",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "IsAttacking",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "Platformer3DKeyboardMapper",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "PhysicsCharacter3D",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics3D::Physics3DBehavior::SetLinearVelocityX"
+              },
+              "parameters": [
+                "Player",
+                "Physics3D",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics3D::Physics3DBehavior::SetLinearVelocityY"
+              },
+              "parameters": [
+                "Player",
+                "Physics3D",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics3D::Physics3DBehavior::SetLinearVelocityZ"
+              },
+              "parameters": [
+                "Player",
+                "Physics3D",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KZYM9GNRVN15WNBREVCWTGTR",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "IsAttacking",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "Platformer3DKeyboardMapper",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "PhysicsCharacter3D",
+                "yes"
               ]
             }
           ]
@@ -13841,9 +14418,9 @@
   "tests": [
     {
       "description": "Dead-zone camera: focus holds for huge zone and follows for zero zone.",
-      "lastRunAt": 1786581441727,
-      "lastRunDurationMs": 1418,
-      "lastRunFramesExecuted": 250,
+      "lastRunAt": 1786584812056,
+      "lastRunDurationMs": 7753,
+      "lastRunFramesExecuted": 280,
       "lastRunStatus": "passed",
       "name": "Dead zone camera follows only after distance",
       "type": "gameplay",
@@ -13879,6 +14456,111 @@
         "const focusMove = c2.x - c0.x;",
         "const playerMove = harness.getObjects('Player')[0].x - p0.x;",
         "harness.assert(focusMove > playerMove * 0.5, 'Zero dead zone: camera focus follows the player');"
+      ]
+    },
+    {
+      "description": "9-key toggles the hitbox overlay, which stays centered on the player.",
+      "lastRunAt": 1786584813890,
+      "lastRunDurationMs": 793,
+      "lastRunFramesExecuted": 14,
+      "lastRunStatus": "passed",
+      "name": "Hitbox toggle and centered dead zone",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Game Scene');",
+        "await harness.stepFrames(5);",
+        "const player = harness.getObjects('Player')[0];",
+        "// 9 toggles the hitbox on, centered on the player.",
+        "harness.setKeyPressed('Num9', true);",
+        "await harness.stepFrames(2);",
+        "harness.setKeyPressed('Num9', false);",
+        "await harness.stepFrames(2);",
+        "let hb = harness.getObjects('PlayerHitbox')[0];",
+        "harness.assert(harness.getSceneVariable('ShowHitbox').value === true, 'ShowHitbox true on 9');",
+        "harness.assert(hb.hidden === false, 'PlayerHitbox shown');",
+        "harness.assert(Math.abs(hb.x - (player.centerX - hb.width / 2)) < 25, 'Hitbox centered on player x');",
+        "harness.assert(Math.abs(hb.y - (player.centerY - hb.height / 2)) < 25, 'Hitbox centered on player y');",
+        "// 9 toggles the hitbox off.",
+        "harness.setKeyPressed('Num9', true);",
+        "await harness.stepFrames(2);",
+        "harness.setKeyPressed('Num9', false);",
+        "await harness.stepFrames(2);",
+        "hb = harness.getObjects('PlayerHitbox')[0];",
+        "harness.assert(hb.hidden === true, 'PlayerHitbox hidden on second 9');"
+      ]
+    },
+    {
+      "description": "Player FacingAngle tracks the mouse cursor direction.",
+      "lastRunAt": 1786584446574,
+      "lastRunDurationMs": 845,
+      "lastRunFramesExecuted": 17,
+      "lastRunStatus": "passed",
+      "name": "Mouse facing angle",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Game Scene');",
+        "await harness.stepFrames(10);",
+        "const pid = harness.getObjects('Player')[0].id;",
+        "// Mouse far right -> player faces East (positive world X).",
+        "harness.setMousePositionScreen(1200, 360);",
+        "await harness.stepFrames(3);",
+        "const right = harness.getObjectVariable(pid, 'FacingAngle').value;",
+        "// Mouse far left -> player faces West (negative world X).",
+        "harness.setMousePositionScreen(80, 360);",
+        "await harness.stepFrames(3);",
+        "const left = harness.getObjectVariable(pid, 'FacingAngle').value;",
+        "harness.assert(right > 45 && right < 135, 'Facing points East when mouse is right');",
+        "harness.assert(left < -45 && left > -135, 'Facing points West when mouse is left');",
+        "harness.assert(right > left, 'Facing angle follows the mouse left/right');"
+      ]
+    },
+    {
+      "description": "Left-click starts an attack, the player stops during it, and movement resumes after it ends.",
+      "lastRunAt": 1786661593847,
+      "lastRunDurationMs": 0,
+      "lastRunFramesExecuted": 0,
+      "lastRunStatus": "error",
+      "name": "Left click attacks and stops movement",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Game Scene');",
+        "await harness.stepFrames(5);",
+        "",
+        "harness.setKeyPressed('d', true);",
+        "await harness.stepFrames(15);",
+        "",
+        "harness.setMousePosition(640, 360);",
+        "harness.setMouseButtonPressed(true, 'left');",
+        "await harness.stepFrames(1);",
+        "harness.setMouseButtonPressed(false, 'left');",
+        "",
+        "let sawAttack = false;",
+        "let attackFrames = 0;",
+        "let movedDuring = 0;",
+        "let movedAfter = 0;",
+        "let ended = false;",
+        "",
+        "for (let i = 0; i < 120; i++) {",
+        "  const p = harness.getObjects('Player')[0];",
+        "  const x = p.x, z = p.z || 0;",
+        "  const atk = (p.animation || '').includes('Attack');",
+        "  if (atk) sawAttack = true;",
+        "  await harness.stepFrames(1);",
+        "  const q = harness.getObjects('Player')[0];",
+        "  if (atk) {",
+        "    attackFrames++;",
+        "    movedDuring += Math.abs(q.x - x) + Math.abs((q.z || 0) - z);",
+        "  } else if (sawAttack) {",
+        "    ended = true;",
+        "    movedAfter += Math.abs(q.x - x) + Math.abs((q.z || 0) - z);",
+        "  }",
+        "}",
+        "",
+        "harness.assert(sawAttack, 'Attack animation played after left click (' + attackFrames + ' frames)');",
+        "harness.assert(movedDuring < 5, 'No movement during attack (moved=' + movedDuring.toFixed(1) + ')');",
+        "harness.assert(ended, 'Attack animation ended');",
+        "harness.assert(movedAfter > 10, 'Movement resumes after attack (moved=' + movedAfter.toFixed(1) + ')');",
+        "harness.releaseAllInputs();"
       ]
     }
   ],
