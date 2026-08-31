@@ -1,7 +1,7 @@
 {
   "firstLayout": "StartMenu",
   "gdVersion": {
-    "build": 280,
+    "build": 281,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -3168,7 +3168,7 @@
       {
         "file": "hudblue28.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"hudblue28.png\",\"extension\":\".png\"}",
         "name": "hudblue28.png",
         "smoothed": false,
         "userAdded": false
@@ -3176,7 +3176,7 @@
       {
         "file": "hudblue29.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"hudblue29.png\",\"extension\":\".png\"}",
         "name": "hudblue29.png",
         "smoothed": false,
         "userAdded": false
@@ -3184,7 +3184,7 @@
       {
         "file": "hudblue30.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"hudblue30.png\",\"extension\":\".png\"}",
         "name": "hudblue30.png",
         "smoothed": false,
         "userAdded": false
@@ -3192,7 +3192,7 @@
       {
         "file": "hudblue31.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"hudblue31.png\",\"extension\":\".png\"}",
         "name": "hudblue31.png",
         "smoothed": false,
         "userAdded": false
@@ -3200,7 +3200,7 @@
       {
         "file": "hudblue32.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"hudblue32.png\",\"extension\":\".png\"}",
         "name": "hudblue32.png",
         "smoothed": false,
         "userAdded": false
@@ -3208,7 +3208,7 @@
       {
         "file": "hudblue33.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"hudblue33.png\",\"extension\":\".png\"}",
         "name": "hudblue33.png",
         "smoothed": false,
         "userAdded": false
@@ -3216,7 +3216,7 @@
       {
         "file": "hudblue34.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"hudblue34.png\",\"extension\":\".png\"}",
         "name": "hudblue34.png",
         "smoothed": false,
         "userAdded": false
@@ -5601,6 +5601,132 @@
         "name": "sprintbutton5.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "noname.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "noname.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "New_Project.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "New_Project.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "stayluminant.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "stayluminant.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "stayluminant1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "stayluminant1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "stayluminant2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "stayluminant2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemygone.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "enemygone.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemyelim.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "enemyelim.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "skeletonhit.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "skeletonhit.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "thump.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "thump.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "ostluminancebeta.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ostluminancebeta.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "doublethumpmp3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "doublethumpmp3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hudblue34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hudblue34.png\"}",
+        "name": "hudblue34",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "hudblue52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hudblue52.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -5610,6 +5736,11 @@
   },
   "objectsGroups": [],
   "variables": [
+    {
+      "name": "MusicMuted",
+      "type": "boolean",
+      "value": false
+    },
     {
       "name": "ControlKind",
       "type": "string",
@@ -5639,13 +5770,25 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3325387091250948,
+        "zoomFactor": 0.9296875000000533,
         "windowMask": true,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [],
       "variables": [
+        {
+          "name": "InstructionPhase",
+          "persistentUuid": "166965b7-eb35-4055-877b-69f5b4a7f0cc",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "ShownSprintInstruction",
+          "persistentUuid": "48302a8e-2fea-42dc-a980-c477ced9b47d",
+          "type": "boolean",
+          "value": false
+        },
         {
           "name": "MoveAngle",
           "persistentUuid": "bb0db5ef-9ffb-4f39-ba49-e39daabe90fe",
@@ -6339,6 +6482,75 @@
           "width": 128,
           "x": 960,
           "y": 448,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 30,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "FPSText",
+          "persistentUuid": "d8ec2335-0827-4f1b-ba2f-2460c23873e6",
+          "width": 90,
+          "x": 1180,
+          "y": 10,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 90,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "InstructionText",
+          "persistentUuid": "2cb8c48a-91ab-47e9-8fc6-f2714986220b",
+          "width": 600,
+          "x": 128,
+          "y": 192,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 60,
+          "hidden": true,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "InstructionArrow",
+          "persistentUuid": "434dad19-cb9e-423b-a57d-6de21e344ced",
+          "width": 64,
+          "x": 128,
+          "y": 128,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "MuteButton",
+          "persistentUuid": "c6d98957-4235-432e-b08e-699a235c2331",
+          "width": 152,
+          "x": 1128,
+          "y": 640,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -15394,16 +15606,17 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "hudblue34",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "hudblue28.png",
+                      "image": "hudblue34.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15439,7 +15652,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "hudblue29.png",
+                      "image": "hudblue33.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15475,79 +15688,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "hudblue30.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 16,
-                            "y": 15
-                          },
-                          {
-                            "x": 128,
-                            "y": 15
-                          },
-                          {
-                            "x": 128,
-                            "y": 41
-                          },
-                          {
-                            "x": 16,
-                            "y": 41
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "hudblue30.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 16,
-                            "y": 15
-                          },
-                          {
-                            "x": 128,
-                            "y": 15
-                          },
-                          {
-                            "x": 128,
-                            "y": 41
-                          },
-                          {
-                            "x": 16,
-                            "y": 41
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "hudblue30.png",
+                      "image": "hudblue34",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15655,7 +15796,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "hudblue33.png",
+                      "image": "hudblue52.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15691,7 +15832,79 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "hudblue34.png",
+                      "image": "hudblue30.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 128,
+                            "y": 15
+                          },
+                          {
+                            "x": 128,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 41
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "hudblue29.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 128,
+                            "y": 15
+                          },
+                          {
+                            "x": 128,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 41
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "hudblue28.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23381,7 +23594,7 @@
             "BottomPadding": 32,
             "TopPadding": 16,
             "HoveredFadeOutDuration": 0,
-            "LabelText": "Health Boost +3"
+            "LabelText": "MaxHealth"
           }
         },
         {
@@ -23604,6 +23817,157 @@
             "HoveredFadeOutDuration": 0.25,
             "LabelText": "\n"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "FPSText",
+          "persistentUuid": "d47cc37f-2c49-4da9-b9f4-f2044d6d7992",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "FPS: 0",
+          "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 16,
+          "color": {
+            "b": 0,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "FPS: 0",
+            "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "lineHeight": 0,
+            "color": "255;255;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "InstructionText",
+          "persistentUuid": "1d526ea0-4959-4fbb-ba0a-e51e058dd86a",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 26,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 26,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "InstructionArrow",
+          "persistentUuid": "bed298ec-2f19-4133-8879-b661dba74f4e",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "0d3f4843e5ebb7af30fd80adf19a1c5a14164c1283f344991dc2aa14067a1262",
+          "name": "MuteButton",
+          "persistentUuid": "1f439aa3-20eb-4bfa-88b9-87eb1b8f9530",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Button",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 16,
+            "RightPadding": 16,
+            "PressedLabelOffsetY": 10,
+            "BottomPadding": 32,
+            "TopPadding": 16,
+            "HoveredFadeOutDuration": 0.01,
+            "LabelText": "Mute"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -23689,6 +24053,18 @@
           },
           {
             "objectName": "TouchAttackButton"
+          },
+          {
+            "objectName": "FPSText"
+          },
+          {
+            "objectName": "InstructionText"
+          },
+          {
+            "objectName": "InstructionArrow"
+          },
+          {
+            "objectName": "MuteButton"
           }
         ]
       },
@@ -23698,6 +24074,19 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        },
+        {
+          "aiGeneratedEventId": "01M16BH8FE2G800NBXA99JYT8T",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== CAMERA (third-person follow with dead zone) ==="
         },
         {
           "aiGeneratedEventId": "01KZW88MMC4RNC81N5DJSD6ZSA",
@@ -23883,6 +24272,115 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01M16FXB0E74NWBTR1DQMMMNAS",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== DEBUG: FPS COUNTER (F key toggle) ==="
+        },
+        {
+          "aiGeneratedEventId": "01M16FXB0E74NWBTR1DQMMMNAS",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"f\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "FPSText"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "FPSText"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "FPSText",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M16FXB0E74NWBTR1DQMMMNAS",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "FPSText"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "FPSText",
+                "Text",
+                "=",
+                "\"FPS: \" + ToString(round(1 / TimeDelta()))"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M16BH8FE2G800NBXA99JYT8T",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== PLAYER FACING (mouse aim, keyboard mode) ==="
+        },
+        {
           "aiGeneratedEventId": "01M13JE24C4R2NHXP5RH30Q3BW",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -23972,6 +24470,19 @@
               "value": 0
             }
           ]
+        },
+        {
+          "aiGeneratedEventId": "01M16BH8FE2G800NBXA99JYT8T",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== DEBUG: HITBOX TOGGLE & DISPLAY (Num9) ==="
         },
         {
           "aiGeneratedEventId": "01KZW98GWBD28C5297AKJSMY2H",
@@ -24096,6 +24607,19 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01M16BH8FE2G800NBXA99JYT8T",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== PLAYER SETUP & SCALING ==="
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -24113,7 +24637,7 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01M0RPPC4EW5Y8FWNPCH7CJGQN",
+          "aiGeneratedEventId": "01M1AZD1P8RRYT05NH94AS3HS9",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -24177,6 +24701,317 @@
                 "Object3D",
                 "=",
                 "52"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "ostluminancebeta.mp3",
+                "1",
+                "yes",
+                "10",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "MusicMuted",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetSoundChannelVolume"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+                  },
+                  "parameters": [
+                    "MuteButton",
+                    "=",
+                    "\"Unmute\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M18J62TKW8CY81XBM735037K",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "InstructionText",
+                "=",
+                "150"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "InstructionText",
+                "=",
+                "185"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "InstructionArrow",
+                "=",
+                "150"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "InstructionArrow",
+                "=",
+                "160"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "InstructionArrow",
+                "Text",
+                "=",
+                "\"▲\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "InstructionText",
+                "Text",
+                "=",
+                "\"This is your health and stamina bar.\" + NewLine() + \"You collect stamina from eliminating enemies.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "InstructionText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "InstructionArrow",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "InstructionPhase",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"InstructionTimer\""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M18J62TKW8CY81XBM735037K",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"InstructionTimer\"",
+                ">",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "InstructionPhase",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "ShownSprintInstruction",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "InstructionText",
+                "Text",
+                "=",
+                "\"Try to survive as many phases as you can!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "InstructionPhase",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"InstructionTimer\""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M18J62TKW8CY81XBM735037K",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"InstructionTimer\"",
+                ">",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "InstructionPhase",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "ShownSprintInstruction",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "InstructionText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "InstructionArrow"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "InstructionPhase",
+                "=",
+                "3"
               ]
             }
           ]
@@ -24252,6 +25087,19 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        },
+        {
+          "aiGeneratedEventId": "01M16BH8FE2G800NBXA99JYT8T",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== INPUT & MOVEMENT (keyboard / joystick) ==="
         },
         {
           "aiGeneratedEventId": "01KZTW9NEJR30FFS22D9S0PGCE",
@@ -25740,6 +26588,19 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01M16BGJ3279S5VA49CGNXZZF8",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== PLAYER ATTACK (start, animation end, movement lock) ==="
+        },
+        {
           "aiGeneratedEventId": "01M13GBQHZD8BH96YJ0Z3Y49HJ",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -26235,6 +27096,18 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "thump.mp3",
+                        "",
+                        "5",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Health::Health::Hit"
                       },
                       "parameters": [
@@ -26311,7 +27184,7 @@
                   ],
                   "events": [
                     {
-                      "aiGeneratedEventId": "01M0W5FDB8VYG3C3T6QN0Q7MAG",
+                      "aiGeneratedEventId": "01M18J2R1JT7DY9VQQTV7A35YV",
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -26364,6 +27237,302 @@
                           "parameters": [
                             "",
                             "\"StaminaGainTimer\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "BooleanVariable"
+                              },
+                              "parameters": [
+                                "ShownSprintInstruction",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "ShownSprintInstruction",
+                                "True",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetX"
+                              },
+                              "parameters": [
+                                "InstructionText",
+                                "=",
+                                "340"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetY"
+                              },
+                              "parameters": [
+                                "InstructionText",
+                                "=",
+                                "600"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "InstructionText",
+                                "Text",
+                                "=",
+                                "\"Hold [SPACE] or the right button to sprint.\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Show"
+                              },
+                              "parameters": [
+                                "InstructionText",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Hide"
+                              },
+                              "parameters": [
+                                "InstructionArrow"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetTimer"
+                              },
+                              "parameters": [
+                                "",
+                                "\"SprintInstructionTimer\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "aiGeneratedEventId": "01M12V4T3FRV81D08FCBET36NZ",
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "EnemyHitbox",
+                        "Enemy",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "EnemyHitbox",
+                        "Player",
+                        "125",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "diff",
+                        "<=",
+                        "AttackAngle"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "UpgradeSlot1",
+                        "=",
+                        "\"Blades\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "doublethumpmp3.mp3",
+                        "",
+                        "5",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "aiGeneratedEventId": "01M18J2R1JT7DY9VQQTV7A35YV",
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Health::Health::IsDead"
+                          },
+                          "parameters": [
+                            "Enemy",
+                            "Health",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Stamina",
+                            "=",
+                            "min(Player.Stamina + 1, 17)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "StaminaGainText",
+                            "Text",
+                            "=",
+                            "\"+ 1 Stamina\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Show"
+                          },
+                          "parameters": [
+                            "StaminaGainText",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"StaminaGainTimer\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "BooleanVariable"
+                              },
+                              "parameters": [
+                                "ShownSprintInstruction",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "ShownSprintInstruction",
+                                "True",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetX"
+                              },
+                              "parameters": [
+                                "InstructionText",
+                                "=",
+                                "340"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetY"
+                              },
+                              "parameters": [
+                                "InstructionText",
+                                "=",
+                                "600"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "InstructionText",
+                                "Text",
+                                "=",
+                                "\"Hold [SPACE] or the right button to sprint.\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Show"
+                              },
+                              "parameters": [
+                                "InstructionText",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Hide"
+                              },
+                              "parameters": [
+                                "InstructionArrow"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetTimer"
+                              },
+                              "parameters": [
+                                "",
+                                "\"SprintInstructionTimer\""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -26556,7 +27725,20 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01M13Q4DSKF58368MCEMHJX8XQ",
+          "aiGeneratedEventId": "01M16BGJ3279S5VA49CGNXZZF8",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== HUD: HEALTH & STAMINA BARS ==="
+        },
+        {
+          "aiGeneratedEventId": "01M1APWSFGDCNMXYRY6WERXY1A",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -26567,7 +27749,7 @@
               "parameters": [
                 "HealthBar",
                 "=",
-                "Player.Health"
+                "8 - Player.Health"
               ]
             },
             {
@@ -26662,6 +27844,19 @@
               ]
             }
           ]
+        },
+        {
+          "aiGeneratedEventId": "01M16BGJ3279S5VA49CGNXZZF8",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== SPRINT & STAMINA ==="
         },
         {
           "aiGeneratedEventId": "01M13G5BRH5BYAHBJA11BWTCG3",
@@ -26954,6 +28149,19 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01M16BGJ3279S5VA49CGNXZZF8",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== ENEMIES: SETUP & HITBOX SYNC ==="
+        },
+        {
           "aiGeneratedEventId": "01M0W8YYP5ZX43P3S9GTBE8AKF",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
@@ -27031,6 +28239,19 @@
               ]
             }
           ]
+        },
+        {
+          "aiGeneratedEventId": "01M16BGJ3279S5VA49CGNXZZF8",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== ENEMY AI: CHASE & SEPARATION ==="
         },
         {
           "aiGeneratedEventId": "01M0SNZEEZM2D7V140R6DWJGE7",
@@ -27549,6 +28770,19 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01M16BGJ3279S5VA49CGNXZZF8",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== ENEMY ATTACKS & PLAYER DAMAGE ==="
+        },
+        {
           "aiGeneratedEventId": "01M0W93696YJEECR4T5MS5DXV7",
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Enemy",
@@ -27883,6 +29117,19 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01M16BFV8G5BACVKXDS4AAS3V9",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== SPRINT VISUAL EFFECTS (marker & trail) ==="
+        },
+        {
           "aiGeneratedEventId": "01M0V0JVX045C8F04SDYFM7AV8",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -28025,6 +29272,19 @@
               ]
             }
           ]
+        },
+        {
+          "aiGeneratedEventId": "01M16BFV8G5BACVKXDS4AAS3V9",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== ENEMY DAMAGE & DEATH (player hits, kills) ==="
         },
         {
           "aiGeneratedEventId": "01M0KXDSSZ3NWRGMY747WAE9DY",
@@ -28294,6 +29554,19 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01M16BFV8G5BACVKXDS4AAS3V9",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== PLAYER KNOCKBACK ==="
+        },
+        {
           "aiGeneratedEventId": "01M0PVBEQAFFG1RJTE2YSTG50Q",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -28416,6 +29689,19 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01M16BFV8G5BACVKXDS4AAS3V9",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== Z LOCKING (keep player & enemies on ground plane) ==="
+        },
+        {
           "aiGeneratedEventId": "01M0M4AYPWYCN2Y2GARVJAS0KJ",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
@@ -28450,6 +29736,19 @@
               ]
             }
           ]
+        },
+        {
+          "aiGeneratedEventId": "01M16BFV8G5BACVKXDS4AAS3V9",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== PHASES & SPAWNING (wave logic, upgrade menu display, phase text) ==="
         },
         {
           "aiGeneratedEventId": "01M0V90C0FPFY3K5282YC0XJ94",
@@ -30694,6 +31993,19 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01M16BFV8G5BACVKXDS4AAS3V9",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== ARENA BOUNDS (clamp to ground) ==="
+        },
+        {
           "aiGeneratedEventId": "01M10W5ZKVTQY6G7RWM1T1PRSW",
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Player",
@@ -30748,6 +32060,19 @@
               ]
             }
           ]
+        },
+        {
+          "aiGeneratedEventId": "01M16BF5Y0RW3CSXXASZRA78BC",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== UPGRADE PURCHASES (buttons) ==="
         },
         {
           "aiGeneratedEventId": "01M12V4T3FRV81D08FCBET36NZ",
@@ -30961,7 +32286,7 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01M13Q4DSKF58368MCEMHJX8XQ",
+          "aiGeneratedEventId": "01M16AHHE0XXPBZNRCBR529D6Y",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -30993,7 +32318,7 @@
                 "Player",
                 "Health",
                 "=",
-                "min(Player.Health + 3, 8)"
+                "8"
               ]
             },
             {
@@ -31276,6 +32601,19 @@
               ]
             }
           ]
+        },
+        {
+          "aiGeneratedEventId": "01M16BF5Y0RW3CSXXASZRA78BC",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== GAME OVER & RESTART ==="
         },
         {
           "aiGeneratedEventId": "01M111QFMWYPNR0MERM7XBQMTM",
@@ -31679,6 +33017,19 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01M16BF5Y0RW3CSXXASZRA78BC",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== MOUSE / TOUCH INPUT STATE ==="
+        },
+        {
           "aiGeneratedEventId": "01M119APQAS0WVPVHM42ZNW77R",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -31759,6 +33110,19 @@
               ]
             }
           ]
+        },
+        {
+          "aiGeneratedEventId": "01M16BF5Y0RW3CSXXASZRA78BC",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== ACTIVE UPGRADES LIST (bottom-right text) ==="
         },
         {
           "aiGeneratedEventId": "01M12WW2KVB8PT4Z7E1VAPDYBJ",
@@ -31857,7 +33221,7 @@
                     "ActiveUpgradesText",
                     "Text",
                     "+",
-                    "NewLine() + \"Health Boost +3\""
+                    "NewLine() + \"Health Boost\""
                   ]
                 }
               ]
@@ -31913,7 +33277,7 @@
                     "ActiveUpgradesText",
                     "Text",
                     "+",
-                    "NewLine() + \"Triple Blade x1.5\""
+                    "NewLine() + \"Triple Blade\""
                   ]
                 }
               ]
@@ -32007,6 +33371,19 @@
               ]
             }
           ]
+        },
+        {
+          "aiGeneratedEventId": "01M16BF5Y0RW3CSXXASZRA78BC",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== TOUCHSCREEN TOGGLE ==="
         },
         {
           "aiGeneratedEventId": "01M13GBQHZD8BH96YJ0Z3Y49HJ",
@@ -32112,6 +33489,19 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01M16BF5Y0RW3CSXXASZRA78BC",
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "=== ENEMY BOOKKEEPING (prev positions, separation, misc) ==="
+        },
+        {
           "aiGeneratedEventId": "01M13KNSZE6457KESAZQ8KB2PN",
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Enemy",
@@ -32211,6 +33601,129 @@
                     "Enemy",
                     "=",
                     "Enemy.PrevY"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M18J2R1JT7DY9VQQTV7A35YV",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"SprintInstructionTimer\"",
+                ">",
+                "2.5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "InstructionText"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M1AZD1P8RRYT05NH94AS3HS9",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "MuteButton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "MusicMuted",
+                "Toggle",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "MusicMuted",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetSoundChannelVolume"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+                  },
+                  "parameters": [
+                    "MuteButton",
+                    "=",
+                    "\"Unmute\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetSoundChannelVolume"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "=",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+                  },
+                  "parameters": [
+                    "MuteButton",
+                    "=",
+                    "\"Mute\"",
+                    ""
                   ]
                 }
               ]
@@ -32538,6 +34051,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "MuteButton",
+          "persistentUuid": "aff4acef-ef9c-4fdb-8ad6-b60391435e4f",
+          "width": 160,
+          "x": 1100,
+          "y": 20,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -32813,6 +34342,25 @@
             "lineHeight": 0,
             "color": "253;253;253"
           }
+        },
+        {
+          "assetStoreId": "0d3f4843e5ebb7af30fd80adf19a1c5a14164c1283f344991dc2aa14067a1262",
+          "name": "MuteButton",
+          "persistentUuid": "f4292360-c015-44ef-8f38-0f28fa89e2d0",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Red Button",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 16,
+            "RightPadding": 16,
+            "PressedLabelOffsetY": 10,
+            "BottomPadding": 32,
+            "TopPadding": 16,
+            "HoveredFadeOutDuration": 0.25,
+            "LabelText": "Mute"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -32835,6 +34383,9 @@
           },
           {
             "objectName": "NewSprite2"
+          },
+          {
+            "objectName": "MuteButton"
           }
         ]
       },
@@ -32862,6 +34413,142 @@
                 "",
                 "\"Game Scene\"",
                 "no"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M1AZD4EMNYG8RF87A20261RQ",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "MusicMuted",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+                  },
+                  "parameters": [
+                    "MuteButton",
+                    "=",
+                    "\"Unmute\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+                  },
+                  "parameters": [
+                    "MuteButton",
+                    "=",
+                    "\"Mute\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M1AZD4EMNYG8RF87A20261RQ",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "MuteButton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "MusicMuted",
+                "Toggle",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "MusicMuted",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+                  },
+                  "parameters": [
+                    "MuteButton",
+                    "=",
+                    "\"Unmute\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+                  },
+                  "parameters": [
+                    "MuteButton",
+                    "=",
+                    "\"Mute\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -35161,6 +36848,194 @@
         "}",
         "harness.assert(hp() === 8, 'Does not overflow past full capacity (health ' + hp() + ')');",
         "harness.assert(barFrame() === 8, 'Bar stays at full (frame ' + barFrame() + ')');"
+      ]
+    },
+    {
+      "description": "Start instructions point at the health bar, then the survive-phases message, then hide.",
+      "lastRunAt": 1788067797669,
+      "lastRunDurationMs": 2384,
+      "lastRunFramesExecuted": 363,
+      "lastRunStatus": "passed",
+      "name": "Start and sprint instructions",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Game Scene');",
+        "await harness.stepFrames(5);",
+        "",
+        "// --- First instruction appears at start, pointing at the health bar ---",
+        "let inst = harness.getObjects('InstructionText')[0];",
+        "let arrow = harness.getObjects('InstructionArrow')[0];",
+        "harness.assert(!!inst && inst.hidden === false, 'InstructionText visible at scene start');",
+        "harness.assert(inst.text.includes('This is your health and stamina bar'), `First instruction text (got \"${inst.text}\")`);",
+        "harness.assert(!!arrow && arrow.hidden === false, 'InstructionArrow visible at scene start');",
+        "harness.assert(arrow.y < inst.y, 'Arrow sits above the text, pointing at the health bar');",
+        "",
+        "// --- After ~3s, second instruction ---",
+        "const secondShown = await harness.stepUntil(() => {",
+        "  const t = harness.getObjects('InstructionText')[0];",
+        "  return !!t && t.text.includes('Try to survive as many phases');",
+        "}, { maxFrames: 240 });",
+        "harness.assert(secondShown, 'Second instruction appears after ~3s');",
+        "",
+        "// --- After another ~3s, instructions hide ---",
+        "const hidden = await harness.stepUntil(() => {",
+        "  const t = harness.getObjects('InstructionText')[0];",
+        "  return !!t && t.hidden === true;",
+        "}, { maxFrames: 240 });",
+        "harness.assert(hidden, 'Instructions hide after the second message');"
+      ]
+    },
+    {
+      "description": "First kill shows the sprint instruction once, then it hides after ~2.5s.",
+      "lastRunAt": 1788067782018,
+      "lastRunDurationMs": 2637,
+      "lastRunFramesExecuted": 425,
+      "lastRunStatus": "passed",
+      "name": "Sprint instruction on first kill",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Game Scene');",
+        "await harness.stepFrames(20);",
+        "",
+        "// Grab a phase-spawned enemy (has a linked hitbox) and bring it near the player",
+        "const p0 = harness.getObjects('Player')[0];",
+        "const enemies = harness.getObjects('Enemy');",
+        "harness.assert(enemies.length > 0, 'Phase enemies spawned');",
+        "const targetId = enemies[0].id;",
+        "harness.setObjectPosition(targetId, p0.centerX + 100, p0.centerY);",
+        "await harness.stepFrames(5);",
+        "",
+        "// Attack until it dies",
+        "let killed = false;",
+        "for (let i = 0; i < 20 && !killed; i++) {",
+        "  const pl = harness.getObjects('Player')[0];",
+        "  harness.setMousePosition(pl.centerX + 300, pl.centerY, '');",
+        "  await harness.stepFrames(1);",
+        "  harness.setMouseButtonPressed(true, 'left');",
+        "  await harness.stepFrames(2);",
+        "  harness.setMouseButtonPressed(false, 'left');",
+        "  await harness.stepUntil(() => {",
+        "    const pp = harness.getObjects('Player')[0];",
+        "    return !!pp && harness.getObjectVariable('Player', 'IsAttacking')?.value !== true;",
+        "  }, { maxFrames: 150 });",
+        "  if (!harness.getObjects('Enemy').some(e => e.id === targetId)) killed = true;",
+        "}",
+        "harness.assert(killed, 'Phase enemy killed');",
+        "",
+        "const sprintInst = harness.getObjects('InstructionText')[0];",
+        "harness.assert(!!sprintInst && sprintInst.hidden === false, 'Sprint instruction visible after first kill');",
+        "harness.assert(sprintInst.text.includes('Hold [SPACE]'), `Sprint instruction text (got \"${sprintInst.text}\")`);",
+        "",
+        "// Sprint instruction hides after ~2.5s",
+        "const sprintHidden = await harness.stepUntil(() => {",
+        "  const t = harness.getObjects('InstructionText')[0];",
+        "  return !!t && t.hidden === true;",
+        "}, { maxFrames: 200 });",
+        "harness.assert(sprintHidden, 'Sprint instruction hides after ~2.5s');"
+      ]
+    },
+    {
+      "description": "HealthBar shows full frame at full health and after the health boost upgrade.",
+      "lastRunAt": 1788139722528,
+      "lastRunDurationMs": 10511,
+      "lastRunFramesExecuted": 55,
+      "lastRunStatus": "passed",
+      "name": "HealthBar full frame after boost",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Game Scene');",
+        "await harness.stepFrames(5);",
+        "const barFrame = () => harness.getRuntimeObject(harness.getObjects('HealthBar')[0].id).getAnimationFrame();",
+        "const p = () => harness.getObjects('Player')[0];",
+        "const hp = () => p().variables.find(v => v.name === 'Health')?.value;",
+        "",
+        "// Full health (8) -> frame 0 (full bar)",
+        "harness.setObjectVariable(p().id, 'Health', 8);",
+        "await harness.stepFrames(2);",
+        "harness.assert(barFrame() === 0, 'Full health (8) shows full frame 0, got ' + barFrame());",
+        "",
+        "// Zero health -> frame 8 (empty bar)",
+        "harness.setObjectVariable(p().id, 'Health', 0);",
+        "await harness.stepFrames(2);",
+        "harness.assert(barFrame() === 8, 'Zero health shows empty frame 8, got ' + barFrame());",
+        "",
+        "// Mid health (4) -> frame 4",
+        "harness.setObjectVariable(p().id, 'Health', 4);",
+        "await harness.stepFrames(2);",
+        "harness.assert(barFrame() === 4, 'Health 4 shows frame 4, got ' + barFrame());",
+        "",
+        "// Boost scenario: damage to 4, then boost heals to full (8) -> frame 0",
+        "harness.setSceneVariable('Phase', 3);",
+        "harness.setSceneVariable('WaitingForNext', false);",
+        "for (const e of harness.getObjects('Enemy')) harness.removeObject(e.id);",
+        "await harness.stepFrames(10);",
+        "const clickBtn = async o => {",
+        "  harness.setMousePositionScreen(o.x + o.width / 2, o.y + o.height / 2);",
+        "  await harness.stepFrames(3);",
+        "  harness.setMouseButtonPressed(true, 'left');",
+        "  await harness.stepFrames(3);",
+        "  harness.setMouseButtonPressed(false, 'left');",
+        "  await harness.stepFrames(3);",
+        "};",
+        "harness.setObjectVariable(p().id, 'Health', 4);",
+        "await harness.stepFrames(2);",
+        "let hb = harness.getObjects('UpgradeHealthButton')[0];",
+        "let guard = 0;",
+        "while ((!hb || hb.hidden) && guard++ < 5) {",
+        "  for (const n of ['UpgradeSprintButton','UpgradeBladesButton','UpgradeHealthButton','UpgradeAngleButton','UpgradeTripleButton']) {",
+        "    const o = harness.getObjects(n)[0];",
+        "    if (o && !o.hidden) { await clickBtn(o); break; }",
+        "  }",
+        "  harness.setSceneVariable('WaitingForNext', false);",
+        "  await harness.stepFrames(10);",
+        "  hb = harness.getObjects('UpgradeHealthButton')[0];",
+        "}",
+        "harness.assert(!!hb && !hb.hidden, 'Health Boost button offered');",
+        "await clickBtn(hb);",
+        "await harness.stepFrames(3);",
+        "harness.assert(hp() === 8, 'Boost heals to full (8), got ' + hp());",
+        "harness.assert(barFrame() === 0, 'After boost the bar shows the full frame 0, got ' + barFrame());"
+      ]
+    },
+    {
+      "description": "Mute toggle: button label and MusicMuted flag update in StartMenu and Game Scene, and music starts muted when muted in the menu.",
+      "lastRunAt": 1788148665971,
+      "lastRunDurationMs": 2115,
+      "lastRunFramesExecuted": 43,
+      "lastRunStatus": "passed",
+      "name": "Mute toggle for background music",
+      "type": "gameplay",
+      "source": [
+        "const clickBtn = async o => {",
+        "  harness.setMousePositionScreen(o.x + o.width / 2, o.y + o.height / 2);",
+        "  await harness.stepFrames(3);",
+        "  harness.setMouseButtonPressed(true, 'left');",
+        "  await harness.stepFrames(3);",
+        "  harness.setMouseButtonPressed(false, 'left');",
+        "  await harness.stepFrames(3);",
+        "};",
+        "const label = () => harness.getObjects('MuteButton')[0].state.LabelText;",
+        "",
+        "// --- StartMenu: button starts as Mute ---",
+        "await harness.goToScene('StartMenu');",
+        "await harness.stepFrames(5);",
+        "harness.assert(label() === 'Mute', 'StartMenu MuteButton starts as \"Mute\", got \"' + label() + '\"');",
+        "",
+        "// --- Click to mute ---",
+        "await clickBtn(harness.getObjects('MuteButton')[0]);",
+        "harness.assert(label() === 'Unmute', 'After click label becomes \"Unmute\", got \"' + label() + '\"');",
+        "harness.assert(harness.getGlobalVariable('MusicMuted')?.value === true, 'MusicMuted global is true after muting');",
+        "",
+        "// --- Start the game: music should start muted ---",
+        "await clickBtn(harness.getObjects('StartButton')[0]);",
+        "await harness.stepFrames(10);",
+        "harness.assert(harness.getSceneName() === 'Game Scene', 'Entered Game Scene');",
+        "harness.assert(label() === 'Unmute', 'Game Scene MuteButton reflects muted state, got \"' + label() + '\"');",
+        "",
+        "// --- Click to unmute in Game Scene ---",
+        "await clickBtn(harness.getObjects('MuteButton')[0]);",
+        "harness.assert(label() === 'Mute', 'After unmute label becomes \"Mute\", got \"' + label() + '\"');",
+        "harness.assert(harness.getGlobalVariable('MusicMuted')?.value === false, 'MusicMuted global is false after unmuting');"
       ]
     }
   ],
@@ -75759,7 +77634,7 @@
                   "string": "Button",
                   "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
                   "textAlignment": "center",
-                  "characterSize": 45,
+                  "characterSize": 40,
                   "color": {
                     "b": 255,
                     "g": 255,
@@ -75783,7 +77658,7 @@
                     "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
                     "textAlignment": "center",
                     "verticalTextAlignment": "center",
-                    "characterSize": 45,
+                    "characterSize": 40,
                     "lineHeight": 0,
                     "color": "255;255;255"
                   }
@@ -75791,7 +77666,7 @@
                 {
                   "assetStoreId": "",
                   "bottomMargin": 32,
-                  "height": 106,
+                  "height": 97,
                   "leftMargin": 16,
                   "name": "Idle",
                   "persistentUuid": "2a5dfd6a-9b04-4e6f-a9c4-39aa483c0ebf",
@@ -75836,7 +77711,7 @@
                 {
                   "assetStoreId": "",
                   "bottomMargin": 32,
-                  "height": 106,
+                  "height": 97,
                   "leftMargin": 16,
                   "name": "Hovered",
                   "persistentUuid": "2ff81ff3-369a-4d22-a681-41e0f6896e99",
@@ -75873,7 +77748,7 @@
                 {
                   "assetStoreId": "",
                   "bottomMargin": 16,
-                  "height": 106,
+                  "height": 97,
                   "leftMargin": 16,
                   "name": "Pressed",
                   "persistentUuid": "11127fa2-e348-4351-9b58-5ee319ad2e2a",
@@ -75887,12 +77762,12 @@
                   "effects": [],
                   "behaviors": [
                     {
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
                       "name": "Anchor",
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
                       "type": "AnchorBehavior::AnchorBehavior",
-                      "bottomEdgeAnchor": 0,
-                      "leftEdgeAnchor": 0,
-                      "rightEdgeAnchor": 0,
-                      "topEdgeAnchor": 0,
                       "relativeToOriginalWindowSize": true,
                       "useLegacyBottomAndRightAnchors": false
                     }
@@ -76029,7 +77904,7 @@
                   "persistentUuid": "24882334-eec8-403e-8bf1-70fc928a46e6",
                   "width": 256,
                   "x": 0,
-                  "y": 24,
+                  "y": 5,
                   "zOrder": 1,
                   "numberProperties": [],
                   "stringProperties": [],
@@ -76045,7 +77920,7 @@
                   "persistentUuid": "aa4bd569-b00c-44e5-8b4c-5fb6742d5bcb",
                   "width": 210,
                   "x": 22,
-                  "y": 71,
+                  "y": 48,
                   "zOrder": 2,
                   "numberProperties": [],
                   "stringProperties": [],
